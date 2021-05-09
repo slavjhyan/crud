@@ -1,0 +1,22 @@
+slav@slav-Q551LN:>construct person {age, name, id}
+OK
+slav@slav-Q551LN:>build person {name = Bob, age = 22, id = abc}
+OK
+slav@slav-Q551LN:>build person {name = Bob, age = 32, id = abc}
+OK
+slav@slav-Q551LN:>build person {name = Mob, age = 22, id = adc}
+OK
+slav@slav-Q551LN:>getWhere person name = Bob, id = abc
+OK
+slav@slav-Q551LN:>getWhere person age = 22
+OK
+slav@slav-Q551LN:>modify person where name = Bob, id = abc | name = Todd, id = AABBCC
+OK
+slav@slav-Q551LN:>construct car {model , date, state}
+OK
+slav@slav-Q551LN:>build car {model = bmw, date = 1996, state = Normal}
+OK
+slav@slav-Q551LN:>build car {model = mercedes, date = 2012, state = Good}
+OK
+slav@slav-Q551LN:>modify car all | model = UNKNOWN, state = UNKNOWN
+OK
