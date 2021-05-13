@@ -1,8 +1,0 @@
-age: 22
-id: abc
-name: Bob
-_______________
-age: 32
-id: abc
-name: Bob
-_______________

@@ -1,8 +1,0 @@
-age: 22
-id: abc
-name: Bob
-_______________
-age: 22
-id: adc
-name: Mob
-_______________
