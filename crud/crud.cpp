@@ -19,7 +19,7 @@ public:
     void start()
     {
         do{
-            std::cout << "slav@slav-Q551LN:" << ">";
+            std::cout << "> ";
             getline(std::cin, query);
             commandLineLength = query.length();
             command = GetCommandName();
