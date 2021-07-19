@@ -6,11 +6,6 @@
 #include <map>
 #include "definitions.h"
 
-//Some comment//
-//
-//
-//
-//Another comment
 class crud
 {
 public:
