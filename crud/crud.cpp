@@ -6,6 +6,8 @@
 #include <map>
 #include "definitions.h"
 
+//Some comment//
+
 class crud
 {
 public:
